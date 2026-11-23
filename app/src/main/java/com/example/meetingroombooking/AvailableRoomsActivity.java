@@ -1,6 +1,9 @@
 package com.example.meetingroombooking;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -19,6 +22,47 @@ public class AvailableRoomsActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        Button btnbackfromavailableroom = findViewById(R.id.btnbackfromavailableroom);
+        btnbackfromavailableroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+        Button btnlogoutfromavailableroom = findViewById(R.id.btnlogoutfromavailableroom);
+        btnlogoutfromavailableroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AvailableRoomsActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        Button btnbookbtninavailableroom = findViewById(R.id.btnbookbtninavailableroom);
+        btnbookbtninavailableroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AvailableRoomsActivity.this, BookingStatusActivity.class);
+                startActivity(intent);
+            }
+        });
+        Button btnhomefromavailableroom = findViewById(R.id.btnhomefromavailableroom);
+        btnhomefromavailableroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AvailableRoomsActivity.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
+        Button btnmybookingfromavailableroom = findViewById(R.id.btnmybookingfromavailableroom);
+        btnmybookingfromavailableroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AvailableRoomsActivity.this, MyBookingsActivity.class);
+                startActivity(intent);
+            }
         });
     }
 }
