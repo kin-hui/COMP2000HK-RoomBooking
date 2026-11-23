@@ -28,6 +28,8 @@ public class AvailableRoomsActivity extends AppCompatActivity {
         btnbackfromavailableroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(AvailableRoomsActivity.this, SearchActivity.class);
+                startActivity(intent);
                 finish();
             }
         });

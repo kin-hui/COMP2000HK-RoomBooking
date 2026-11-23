@@ -28,6 +28,8 @@ public class MyBookingsActivity extends AppCompatActivity {
         btnbackfrommybooking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MyBookingsActivity.this, HomeActivity.class);
+                startActivity(intent);
                 finish();
             }
         });

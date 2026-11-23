@@ -28,6 +28,8 @@ public class BookingStatusActivity extends AppCompatActivity {
         btnbackfrombookstatus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(BookingStatusActivity.this, AvailableRoomsActivity.class);
+                startActivity(intent);
                 finish();
             }
         });
