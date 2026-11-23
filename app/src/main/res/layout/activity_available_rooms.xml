@@ -26,8 +26,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginTop="19dp"
+        android:layout_marginBottom="755dp"
         android:alpha="0"
         android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomefromavailableroom"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,41 +39,66 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
         android:layout_marginEnd="23dp"
+        android:layout_marginBottom="752dp"
         android:alpha="0"
         android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/btnmybookingfromavailableroom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnbookbtninavailableroom"
-        android:layout_width="82dp"
-        android:layout_height="251dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="118dp"
+        android:id="@+id/btntomybookingfromavailableroom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="521dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="119dp"
         android:alpha="0"
         android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/btnhomefromavailableroom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnhomefromavailableroom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginBottom="15dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="3dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/btnmybookingfromavailableroom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnbackfromavailableroom" />
 
     <Button
         android:id="@+id/btnmybookingfromavailableroom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="3dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnhomefromavailableroom"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogoutfromavailableroom" />
+
+    <Button
+        android:id="@+id/btnbookstatusfromavailableroom"
+        android:layout_width="361dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="722dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="53dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomefromavailableroom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

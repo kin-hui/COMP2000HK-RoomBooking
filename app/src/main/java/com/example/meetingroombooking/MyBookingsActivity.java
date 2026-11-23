@@ -72,5 +72,13 @@ public class MyBookingsActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button btnbookstatusfrommybooking = findViewById(R.id.btnbookstatusfrommybooking);
+        btnbookstatusfrommybooking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyBookingsActivity.this, BookingStatusActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

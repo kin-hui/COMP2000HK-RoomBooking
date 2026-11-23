@@ -24,13 +24,47 @@ public class HomeActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button btnLogoutHome = findViewById(R.id.btnLogoutHome);
+        Button btnLogoutHome = findViewById(R.id.btnLogoutfromHome);
         btnLogoutHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        Button btnSearchRoomfromhome = findViewById(R.id.btnSearchRoomfromhome);
+        btnSearchRoomfromhome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, SearchActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnSearchTabfromhome = findViewById(R.id.btnSearchTabfromhome);
+        btnSearchTabfromhome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, SearchActivity.class);
+                startActivity(intent);
+            }
+        });
+        Button btnMyBookingsfromhome = findViewById(R.id.btnMyBookingsfromhome);
+        btnMyBookingsfromhome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, MyBookingsActivity.class);
+                startActivity(intent);
+            }
+        });
+        Button btnMyBookingsTabfromhome = findViewById(R.id.btnMyBookingsTabfromhome);
+        btnMyBookingsTabfromhome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, MyBookingsActivity.class);
+                startActivity(intent);
             }
         });
     }

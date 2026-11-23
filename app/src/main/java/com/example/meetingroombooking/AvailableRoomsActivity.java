@@ -40,11 +40,11 @@ public class AvailableRoomsActivity extends AppCompatActivity {
                 finish();
             }
         });
-        Button btnbookbtninavailableroom = findViewById(R.id.btnbookbtninavailableroom);
+        Button btnbookbtninavailableroom = findViewById(R.id.btntomybookingfromavailableroom);
         btnbookbtninavailableroom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AvailableRoomsActivity.this, BookingStatusActivity.class);
+                Intent intent = new Intent(AvailableRoomsActivity.this, MyBookingsActivity.class);
                 startActivity(intent);
             }
         });
@@ -61,6 +61,15 @@ public class AvailableRoomsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AvailableRoomsActivity.this, MyBookingsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnbookstatusfromavailableroom = findViewById(R.id.btnbookstatusfromavailableroom);
+        btnbookstatusfromavailableroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AvailableRoomsActivity.this, BookingStatusActivity.class);
                 startActivity(intent);
             }
         });

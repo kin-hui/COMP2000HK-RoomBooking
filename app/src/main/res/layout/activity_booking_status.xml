@@ -20,19 +20,21 @@
 
     <Button
         android:id="@+id/btnbackfrombookstatus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="99dp"
+        android:layout_height="55dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="15dp"
+        android:layout_marginBottom="760dp"
         android:alpha="0"
         android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomefrombookstatus2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnlogoutfrombookstatus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
         android:layout_marginTop="19dp"
         android:layout_marginEnd="18dp"
         android:alpha="0"
@@ -42,8 +44,8 @@
 
     <Button
         android:id="@+id/btnmybookingfrombookstatus"
-        android:layout_width="347dp"
-        android:layout_height="53dp"
+        android:layout_width="358dp"
+        android:layout_height="64dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="509dp"
         android:layout_marginEnd="160dp"
@@ -57,48 +59,53 @@
 
     <Button
         android:id="@+id/btnhomefrombookstatus"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_width="359dp"
+        android:layout_height="51dp"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="574dp"
         android:layout_marginEnd="27dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnmybookingfrombookstatus" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnhomefrombookstatus2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="21dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="9dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnsearchfromroomstatus"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnbackfrombookstatus" />
 
     <Button
         android:id="@+id/btnsearchfromroomstatus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="4dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnmybookingfrombookstatus2"
-        app:layout_constraintTop_toBottomOf="@+id/btnmybookingfrombookstatus" />
+        app:layout_constraintStart_toEndOf="@+id/btnhomefrombookstatus2" />
 
     <Button
         android:id="@+id/btnmybookingfrombookstatus2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="12dp"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="8dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnsearchfromroomstatus" />
 </androidx.constraintlayout.widget.ConstraintLayout>
