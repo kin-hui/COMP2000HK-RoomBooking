@@ -20,72 +20,70 @@
 
     <Button
         android:id="@+id/btnSearchRoomfromhome"
-        android:layout_width="391dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="154dp"
+        android:layout_width="340dp"
+        android:layout_height="63dp"
         android:alpha="0"
         android:text="Button"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.422" />
+        app:layout_constraintVertical_bias="0.345" />
 
     <Button
         android:id="@+id/btnMyBookingsfromhome"
         android:layout_width="355dp"
         android:layout_height="182dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="522dp"
         android:alpha="0"
         android:text="Button"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/btnSearchTabfromhome"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.806" />
 
     <Button
         android:id="@+id/btnMyBookingsTabfromhome"
-        android:layout_width="120dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="129dp"
+        android:layout_height="71dp"
         android:alpha="0"
         android:text="Button"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995" />
 
     <Button
         android:id="@+id/btnLogoutfromHome"
-        android:layout_width="75dp"
-        android:layout_height="58dp"
+        android:layout_width="90dp"
+        android:layout_height="71dp"
         android:alpha="0"
         android:text="Button"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="@+id/btnMyBookingsTabfromhome"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintHorizontal_bias="0.912"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047" />
+        app:layout_constraintVertical_bias="0.034" />
 
     <Button
         android:id="@+id/btnSearchTabfromhome"
         android:layout_width="129dp"
         android:layout_height="64dp"
-        android:layout_marginBottom="4dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view_screen_home"
+        app:layout_constraintVertical_bias="0.986" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

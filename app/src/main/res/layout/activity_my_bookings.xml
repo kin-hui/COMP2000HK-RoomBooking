@@ -14,98 +14,99 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/screen_my_bookings" />
 
     <Button
         android:id="@+id/btnbackfrommybooking"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="18dp"
-        android:alpha="0"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnlogoutfrommybooking"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="21dp"
-        android:alpha="0"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btncancelrequestfrommybooking"
-        android:layout_width="374dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="288dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="466dp"
-        android:alpha="0"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/btnsearchfrommybooking"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btncancelbookingfrommybooking"
-        android:layout_width="375dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="371dp"
+        android:layout_width="128dp"
+        android:layout_height="78dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btncancelrequestfrommybooking" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnlogoutfrommybooking"
+        android:layout_width="105dp"
+        android:layout_height="67dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/btncancelrequestfrommybooking"
+        android:layout_width="287dp"
+        android:layout_height="52dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <Button
+        android:id="@+id/btncancelbookingfrommybooking"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
 
     <Button
         android:id="@+id/btnhomefrommybooking"
         android:layout_width="107dp"
         android:layout_height="69dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="12dp"
-        android:alpha="0"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnsearchfrommybooking"
-        android:layout_width="117dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="7dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btncancelrequestfrommybooking" />
-
-    <Button
-        android:id="@+id/btnbookstatusfrommybooking"
-        android:layout_width="359dp"
-        android:layout_height="94dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="545dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="202dp"
-        android:alpha="0"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/btnhomefrommybooking"
-        app:layout_constraintEnd_toEndOf="@+id/btncancelbookingfrommybooking"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.23" />
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnsearchfrommybooking"
+        android:layout_width="122dp"
+        android:layout_height="73dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnbookstatusfrommybooking"
+        android:layout_width="309dp"
+        android:layout_height="79dp"
+        android:alpha="0"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
 </androidx.constraintlayout.widget.ConstraintLayout>

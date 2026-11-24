@@ -20,63 +20,65 @@
 
     <Button
         android:id="@+id/btnfindroomfromsearch"
-        android:layout_width="366dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="709dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="339dp"
+        android:layout_height="78dp"
         android:alpha="0"
         android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/btnmybookingfromsearch"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
 
     <Button
         android:id="@+id/btnhomefromsearch"
         android:layout_width="119dp"
         android:layout_height="69dp"
-        android:layout_marginBottom="4dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btnmybookingfromsearch"
-        android:layout_width="138dp"
-        android:layout_height="0dp"
+        android:layout_width="129dp"
+        android:layout_height="69dp"
         android:alpha="0"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnlogoutfromsearch" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btnlogoutfromsearch"
-        android:layout_width="95dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="737dp"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
         android:alpha="0"
         android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/btnmybookingfromsearch"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnbackfromsearch"
         android:layout_width="99dp"
         android:layout_height="65dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="13dp"
         android:alpha="0"
         android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
 </androidx.constraintlayout.widget.ConstraintLayout>
